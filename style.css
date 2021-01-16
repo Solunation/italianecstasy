@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #cb202d;
+    font-family: "Quicksand";
+}
+
+.heading {
+    font-size: 10rem;
+    text-shadow: 5px 5px 11px #8a7e7e;
+}
+
+.paragraph{
+    font-family: "Montserrat";
+    color: #8a7e7e;
+}
+
+@media only screen and (min-width:600px){
+    /*For Tablets*/
+    .heading { font-size: 5rem; }
+}
+
+
+@media only screen and (min-width:768px){
+    /*For Desktop*/
+    .heading { font-size: 5rem; }
+    .main-container{ 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width:800px; 
+    }
+    .brand-container{
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            align-items: center;
+        }
+    .image-container{ padding: 0 50px; }
+    .image-container img{ width: 300px; }
+    .brand-logo{ width: 50px; }
+}
