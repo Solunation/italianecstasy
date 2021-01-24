@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <link href="https://italianembassy.in/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="https://italianembassy.in/assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div>
+        <label>Dish Name :</lable>
+            <input id="name" type="text">
+
+            </br>
+
+            <label>Dish image</label>
+            <input id="image" type="file">
+
+            </br>
+
+            <label>Ingredients :</lable>
+                <input id="ingredients" type="text">
+
+                </br>
+
+                <label>Category :</lable>
+                    <select id="category">
+                        <option>Pasta</option>
+                        <option>Fresh Pasta</option>
+                        <option>Sapghetti</option>
+                        <option>Lasagnia</option>
+                        <option>Beverages</option>
+                        <option>Speciality</option>
+                    </select>
+
+                    </br>
+
+                    <label>Price</label>
+                    <input id="price" type="text">
+
+                    </br>
+
+                    <input id="generate" type="button" value="Generate" onclick="generateElement()">
+    </div>
+
+    <section id="menu" class="menu section-bg">
+		<div class="container aos-init aos-animate" data-aos="fade-up">
+			<div class="row menu-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+				style="position: relative; height: 600px;">
+            <code id ="result">
+
+            </code>
+
+            </div>
+        </div>
+    </section>
+    <div id="code">
+        <p>This is the Code</p>
+    </div>
+    <!--Scripts-->
+    <script src="./main.js"></script>
+</body>
+
+</html>
