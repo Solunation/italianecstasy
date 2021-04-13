@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Home</title>
+	<meta content="" name="description">
+	<meta content="" name="keywords">
+
+	<!-- Favicons -->
+	<link href="./assets/img/favicon.png" rel="icon">
+	<link href="./assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+	<!-- Google Fonts -->
+	<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+		rel="stylesheet">
+
+	<!-- Vendor CSS Files -->
+	<link href="./app.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<!-- Modal Starts -->
+	<div class="modal" id="promotion-modal" tabindex="-1">
+		<div class="modal-dialog modal-dialog-centered">
+		  <div class="modal-content">
+			  <a type="button" class="bx bx-x-circle promotion-close" data-bs-dismiss="modal" aria-label="Close"></a>
+			  <img src="./assets/img/menu/alfredo.jpg">
+		  </div>
+		</div>
+	  </div>
+	<!-- Modal End-->
+
+	<!--Top Bar Starts-->
+	<div id="topbar" class="d-flex align-items-center fixed-top">
+		<div class="container d-flex">
+			<div class="contact-info mr-auto">
+				<i class="icofont-phone"></i> +91 79723 55203 / +91 87932 37087
+				<span class="d-none d-lg-inline-block"><i class="icofont-clock-time icofont-rotate-180"></i> Mon-Sun:
+					05:00 PM - 10:00 PM</span>
+			</div>
+		</div>
+	</div>
+	<!--Top Bar Ends-->
+
+	<!--Header Start-->
+	<header id="header" class="fixed-top">
+		<div class="container d-flex align-items-center">
+
+			<!--<h1 class="logo mr-auto"><a href="https://italianembassy.in/index.html">Italian Embassy</a></h1>-->
+			<!-- Uncomment below if you prefer to use an image logo -->
+			<a href="index.html" class="logo mr-auto"><img src="./assets/img/logo.png" alt="" class="img-fluid"></a>
+
+			<nav class="nav-menu d-none d-lg-block">
+				<ul>
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<li><a href="#menu">Menu</a></li>
+					<li><a href="#footer">Contact</a></li>
+				</ul>
+			</nav><!-- .nav-menu -->
+
+		</div>
+	</header><!-- End Header -->
+	<!--Header End-->
+
+	<!--Banner Section Start-->
+	<section id="hero" class="d-flex align-items-center">
+		<div class="container position-relative text-center text-lg-left" data-aos="zoom-in" data-aos-delay="100">
+			<div class="row">
+				<div class="col-lg-8">
+					<h1><span style="color:green">Welcome</span> to Italian<span style="color:red"> Embassy</span></h1>
+					<h2>With love from Italy</h2>
+
+					<div class="btns">
+						<a href="#menu" class="btn-menu animated fadeInUp scrollto">Our Menu</a>
+						<a href="https://www.zomato.com/nashik/italian-embassy-college-road/order?utm_medium=o2_widget&utm_campaign=widget-business&utm_source=referral-widget-19444717"
+							target="_blank" class="btn-book animated fadeInUp scrollto">Order Now</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Banner Section End-->
+
+	<!--About Us Section Start-->
+	<section id="about" class="">
+		<div class="container">
+			<div class="section-title">
+				<h2>About Us</h2>
+				<p>Let's Know About Us</p>
+			</div>
+
+			<p>Here some text comes which describes the company and it's feature. This is the section where we can
+				expose
+				our values and culture</p>
+		</div>
+
+	</section>
+	<!--About Us Section End-->
+
+	<!--Menu Card Section Start-->
+	<section id="menu" class="menu section-bg">
+		<div class="container aos-init aos-animate" data-aos="fade-up">
+
+			<div class="section-title">
+				<h2>Menu</h2>
+				<p>Check Our Tasty Menu</p>
+			</div>
+
+			<div class="row aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+				<div class="col-lg-12 d-flex justify-content-center">
+					<ul id="menu-flters">
+						<li data-filter="*" class="filter-active">All</li>
+						<li data-filter=".filter-pasta">Pasta</li>
+						<li data-filter=".filter-fresh-pasta">Fresh Pasta</li>
+						<li data-filter=".filter-spaghetti">Spaghetti</li>
+						<li data-filter=".filter-lasagne">Lasagne</li>
+						<li data-filter=".filter-beverages">Beverages</li>
+						<li data-filter=".filter-specialty">Specialty</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="row menu-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200"
+				style="position: relative; height: 600px;">
+
+
+				<div class="col-lg-6 menu-item filter-pasta" style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Arrabiata<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹119/129</span>
+					</div>
+					<div class="menu-ingredients">
+						Classic old tomato sauce, cooked with italian herbs.
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-pasta" style="position: absolute; left: 0px; top: 0px;">
+					<img src="./assets/img/menu/alfredo.jpg" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Alfredo<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹129/139</span>
+					</div>
+					<div class="menu-ingredients">
+						Midly flavored, cream and cheese base with rich white sauce
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-pasta" style="position: absolute; left: 0px; top: 0px;">
+					<img src="./assets/img/menu/mix-sauce-chicken-pasta.jpg" class="menu-img"
+						alt="">
+					<div class="menu-content">
+						<a href="#">Mix Sauce<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹129/139</span>
+					</div>
+					<div class="menu-ingredients">
+						Together is better, Pasta in Arrabbita and Alfredo combined sauce
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-pasta filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Mac "N" Cheese<i class="bx bx-food-tag" style="color:green"></i><i
+								class="bx bx-food-tag" style="color:red"></i></a><span>₹139/149</span>
+					</div>
+					<div class="menu-ingredients">
+						An American Classic, Macaroni prepared live in 3 cheese sauce
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-pasta filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="./assets/img/menu/tandoori-pasta.jpg" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Tandoori<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹139/139</span>
+					</div>
+					<div class="menu-ingredients">
+						For the love of Indian Food, A sauce flavoured with Tandoori spices
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item pasta" style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Garlic Bread<i class="bx bx-food-tag"
+								style="color:green"></i></a><span>₹39/49</span>
+					</div>
+					<div class="menu-ingredients">
+						Bread spread with butter and crushed garlic toasted to perfection
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-fresh-pasta filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="./assets/img/menu/cottage-cheese-ravoli.jpg" class="menu-img"
+						alt="">
+					<div class="menu-content">
+						<a href="#">Cottage Cheese Ravioli<i class="bx bx-food-tag"
+								style="color:green"></i></a><span>₹139</span>
+					</div>
+					<div class="menu-ingredients">
+						Fresh stuffed pasta with filling of spiced cottage cheese and veggies
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-fresh-pasta filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Chicken Ravioli<i class="bx bx-food-tag" style="color:red"></i></a><span>₹139</span>
+					</div>
+					<div class="menu-ingredients">
+						Fresh stuffed pasta with filling of Cajun spiced Chicken and cheese
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-spaghetti" style="position: absolute; left: 0px; top: 0px;">
+					<img src="./assets/img/menu/pesto-pasta.jpg" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Pesto<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹139/149</span>
+					</div>
+					<div class="menu-ingredients">
+						A Freshly flavored sauce of crushed basil leaves, nuts, garlic, cheese and olive oil
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-spaghetti" style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Aglio E Olio<i class="bx bx-food-tag" style="color:green"></i><i
+								class="bx bx-food-tag" style="color:red"></i></a><span>₹139/149</span>
+					</div>
+					<div class="menu-ingredients">
+						An italian classic spaghetti toasted in mined garlic, olive oil & chilli flakes
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-lasagne filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Lasagne<i class="bx bx-food-tag" style="color:green"></i><i class="bx bx-food-tag"
+								style="color:red"></i></a><span>₹250/280</span>
+					</div>
+					<div class="menu-ingredients">
+						An layered Italian dish consisting of lasagne sheets with chicken or vegetables and a special
+						sauce
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-beverages filter-specialty"
+					style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Cold Coffee</a><span>₹49</span>
+					</div>
+					<div class="menu-ingredients">
+						A blissful colde version of Italy's favourite beverage "Coffee"
+					</div>
+				</div>
+
+				<div class="col-lg-6 menu-item filter-beverages" style="position: absolute; left: 0px; top: 0px;">
+					<img src="" class="menu-img" alt="">
+					<div class="menu-content">
+						<a href="#">Ice Tea</a><span>₹39</span>
+					</div>
+					<div class="menu-ingredients">
+						Cold & Refreshing version of India's favourite hot beverage
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!--Menu Card Section End-->
+
+	<!-- Testimonials Section -->
+	<!--
+    <section id="testimonials" class="testimonials">
+		<div class="container" data-aos="fade-up">
+  
+		  <div class="section-title">
+			<h2>Testimonials</h2>
+			<p>What they're saying about us</p>
+		  </div>
+  
+		  <div class="owl-carousel testimonials-carousel" data-aos="zoom-in" data-aos-delay="100">
+  
+			<div class="testimonial-item">
+			  <p>
+				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+				<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+			  </p>
+			  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+			  <h3>Saul Goodman</h3>
+			</div>
+  
+			<div class="testimonial-item">
+			  <p>
+				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+				<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+			  </p>
+			  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+			  <h3>Sara Wilsson</h3>
+			</div>
+  
+			<div class="testimonial-item">
+			  <p>
+				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+				<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+			  </p>
+			  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+			  <h3>Jena Karlis</h3>
+			</div>
+  
+			<div class="testimonial-item">
+			  <p>
+				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+				<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+			  </p>
+			  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+			  <h3>Matt Brandon</h3>
+			</div>
+  
+			<div class="testimonial-item">
+			  <p>
+				<i class="bx bxs-quote-alt-left quote-icon-left"></i>
+				Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+				<i class="bx bxs-quote-alt-right quote-icon-right"></i>
+			  </p>
+			  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+			  <h3>John Larson</h3>
+			</div>
+  
+		  </div>
+  
+		</div>
+	  </section>
+	-->
+	  <!-- Testimonials Section End -->
+
+	<!--Footer Start-->
+	<footer id="footer">
+		<div class="footer-top">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-lg-4 col-md-6">
+						<div class="footer-info">
+							<h3>Italian Embassy</h3>
+							<p>
+								Krishi Nagar, Nashik <br>
+								Maharashtra 422005, IN<br><br>
+								<strong>Phone:</strong> +91 79723 55203 / +91 87932 37087<br>
+								<strong>Email:</strong> italianembassynashik@gmail.com<br>
+							</p>
+							<div class="social-links mt-3">
+								<a href="https://www.facebook.com/italianembassy" target="_blank" class="facebook"><i
+										class="bx bxl-facebook"></i></a>
+								<a href="https://www.instagram.com/italianembassy/?hl=en" target="_blank"
+									class="instagram"><i class="bx bxl-instagram"></i></a>
+								<a href="https://api.whatsapp.com/send?phone=917972355203" target="_blank"
+									class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+								<a href="https://www.google.com/search?q=italian+embassy+nashik&rlz=1C1CHBF_enIN849IN849&oq=italian+embassy+nashik&aqs=chrome..69i57j46i39i175i199j69i60l2.5344j0j4&sourceid=chrome&ie=UTF-8 target="_blank"
+									class="whatsapp"><i class="bx bxl-google"></i></a>
+							</div>
+						</div>
+					</div>
+
+
+					<div class="col-lg-8 col-md-6 footer-newsletter">
+						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+							<script>(function () {
+									var setting = { "height": 220, "width": 792, "zoom": 17, "queryString": "Italian Embassy :- The Italian Food Truck, College Road, near Byk Back Gate, Ramdas Colony, Nashik, Maharashtra, India", "place_id": "ChIJOSdapVDr3TsRStrIys1lrl0", "satellite": false, "centerCoord": [20.004165105781265, 73.76288459999998], "cid": "0x5dae65cdcac8da4a", "lang": "en", "cityUrl": "/india/nashik-32470", "cityAnchorText": "Map of Nashik, West Zone, India", "id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3", "embed_id": "363904" };
+									var d = document;
+									var s = d.createElement('script');
+									s.src = 'https://1map.com/js/script-for-user.js?embed_id=363904';
+									s.async = true;
+									s.onload = function (e) {
+										window.OneMap.initMap(setting)
+									};
+									var to = d.getElementsByTagName('script')[0];
+									to.parentNode.insertBefore(s, to);
+								})();</script><a href="https://1map.com/map-embed">1 Map</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="copyright">
+				&copy; Copyright <strong><span>Italian Embassy</span></strong>. All Rights Reserved
+			</div>
+		</div>
+	</footer>
+	<!--Footer End-->
+
+	<div id="preloader"></div>
+	<a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+	
+
+	<!-- Template Main JS File -->
+	<script src="./app.min.js"></script>
+</body>
+
+</html>
